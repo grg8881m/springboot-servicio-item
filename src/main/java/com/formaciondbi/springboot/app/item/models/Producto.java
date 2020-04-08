@@ -7,6 +7,8 @@ public class Producto {
 	private String nombre;
 	private Double precio;
 	private Date creado;
+	
+	private Integer puerto;
 
 	public Long getId() {
 		return id;
@@ -38,6 +40,14 @@ public class Producto {
 
 	public void setCreado(Date creado) {
 		this.creado = creado;
+	}
+
+	public Integer getPuerto() {
+		return puerto;
+	}
+
+	public void setPuerto(Integer puerto) {
+		this.puerto = puerto;
 	}
 	
 }

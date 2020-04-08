@@ -11,7 +11,7 @@ import com.formaciondbi.springboot.app.item.clientes.IProductoClienteRest;
 import com.formaciondbi.springboot.app.item.models.Item;
 
 @Service("serviceFeign")
-//@Primary
+@Primary
 public class ItemServiceFeignImpl implements ItemService {
 	
 	@Autowired
