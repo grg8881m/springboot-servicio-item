@@ -1,8 +1,12 @@
 package com.formaciondbi.springboot.app.item.models;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Producto {
+public class Producto implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	
 	private Long id;
 	private String nombre;
 	private Double precio;
